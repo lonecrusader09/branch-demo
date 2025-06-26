@@ -39,9 +39,9 @@ def job():
     print("Job done")
 
 
-schedule.every().monday.at("10:00").do(send_mail)
+schedule.every().friday.at("18:00").do(send_mail)
 
-print("Schedule started sending emails every monday at 10 am ")
+print("Schedule started sending emails every monday at 6 pm ")
 
 
 
